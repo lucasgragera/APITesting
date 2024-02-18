@@ -1,0 +1,43 @@
+[2024-02-18 02:37:34] [1] [INFO] [TestNG] Running:
+  C:\Users\lucas\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+[2024-02-18 02:37:39] [1] [INFO] Request method:	GET
+Request URI:	https://api.github.com/users/
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 404 Not Found
+Server: GitHub.com
+Date: Sun, 18 Feb 2024 02:37:38 GMT
+Content-Type: application/json; charset=utf-8
+X-GitHub-Media-Type: github.v3; format=json
+x-github-api-version-selected: 2022-11-28
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+Content-Encoding: gzip
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 58
+X-RateLimit-Reset: 1708227000
+X-RateLimit-Resource: core
+X-RateLimit-Used: 2
+Content-Length: 91
+X-GitHub-Request-Id: 200B:30BF6C:35D6AE:3C4B73:65D16D72
+
+{
+    "message": "Not Found",
+    "documentation_url": "https://docs.github.com/rest"
+}
+
