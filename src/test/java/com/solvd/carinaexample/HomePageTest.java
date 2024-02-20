@@ -7,7 +7,6 @@ import com.solvd.carinaexample.web.components.ProductCard;
 import com.solvd.carinaexample.web.components.SearchLineComponent;
 import com.zebrunner.carina.core.AbstractTest;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
