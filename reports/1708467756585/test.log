@@ -1,0 +1,17 @@
+[2024-02-20 10:22:36] [1] [INFO] 
+============= Basic configuration =============
+env=PROD
+=========== WebDriver configuration ===========
+browser=chrome
+selenium_url=http://localhost:4444/wd/hub
+-------------- Driver capabilities ------------
+===============================================
+
+[2024-02-20 10:22:36] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-20 10:22:40] [1] [INFO] [TestNG] Running:
+  C:\Users\lucas\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+[2024-02-20 10:22:40] [1] [INFO] Set thread-count=1
+[2024-02-20 10:22:40] [1] [INFO] Set data-provider-thread-count=1
+[2024-02-20 10:22:40] [1] [INFO] CARINA_CORE_VERSION: 1.2.7
+[2024-02-20 10:22:49] [34] [WARN] Trying to quit driver 'default' on shutdown hook action!

@@ -1,0 +1,39 @@
+[2024-02-19 11:12:27] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-19 11:12:27] [1] [INFO] TEST [WebTestingClass - verifySearchTest] STARTED at [20:12:27 2024-02-19]
+[2024-02-19 11:12:27] [1] [INFO] Starting driver session...
+[2024-02-19 11:12:30] [1] [INFO] Driver session started.
+[2024-02-19 11:12:30] [1] [INFO] INFO: opening url 'https://www.amazon.com'
+[2024-02-19 11:12:33] [1] [INFO] TEST [WebTestingClass - verifySearchTest] PASSED at [20:12:33 2024-02-19]
+[2024-02-19 11:12:33] [1] [ERROR] Failure detected on screenshot generation after failure: 
+[2024-02-19 11:12:33] [1] [ERROR] TEST [WebTestingClass - verifySearchTest] FAILED at [20:12:33 2024-02-19] - 'java.nio.file.Path com.zebrunner.carina.utils.report.ReportContext.getTestDirectory()'
+
+com.zebrunner.carina.core.config.ReportConfiguration.getTestLogLink(ReportConfiguration.java:198)
+com.zebrunner.carina.core.listeners.AbstractTestListener.createTestResult(AbstractTestListener.java:213)
+com.zebrunner.carina.core.listeners.AbstractTestListener.passItem(AbstractTestListener.java:64)
+com.zebrunner.carina.core.listeners.AbstractTestListener.onTestSuccess(AbstractTestListener.java:181)
+com.zebrunner.carina.core.listeners.CarinaListener.onTestSuccess(CarinaListener.java:363)
+com.nordstrom.automation.testng.ListenerChain.onTestSuccess(ListenerChain.java:379)
+org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:112)
+org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:263)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:751)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+org.testng.TestRunner.privateRun(TestRunner.java:819)
+org.testng.TestRunner.run(TestRunner.java:619)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+org.testng.SuiteRunner.run(SuiteRunner.java:336)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+org.testng.TestNG.runSuites(TestNG.java:1134)
+org.testng.TestNG.run(TestNG.java:1101)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)

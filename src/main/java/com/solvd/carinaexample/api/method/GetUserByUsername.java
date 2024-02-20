@@ -1,11 +1,10 @@
-package com.solvd.carinaexample.api;
+package com.solvd.carinaexample.api.method;
 
 import com.zebrunner.carina.api.AbstractApiMethodV2;
 import com.zebrunner.carina.api.annotation.Endpoint;
 import com.zebrunner.carina.api.annotation.RequestTemplatePath;
 import com.zebrunner.carina.api.apitools.builder.NotStringValuesProcessor;
 import com.zebrunner.carina.api.http.HttpMethodType;
-import com.zebrunner.carina.utils.config.Configuration;
 
 @Endpoint(url = "${config.api_url}/users/${username}", methodType = HttpMethodType.GET)
 @RequestTemplatePath(path = "api/users/get_user_rs.json")

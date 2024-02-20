@@ -1,7 +1,7 @@
 package com.solvd.carinaexample;
 
-import com.solvd.carinaexample.api.GetUserByUsername;
-import com.solvd.carinaexample.domain.User;
+import com.solvd.carinaexample.api.method.GetUserByUsername;
+import com.solvd.carinaexample.api.domain.User;
 import com.zebrunner.carina.api.apitools.validation.JsonComparatorContext;
 import com.zebrunner.carina.api.http.HttpResponseStatusType;
 import org.testng.annotations.Test;
